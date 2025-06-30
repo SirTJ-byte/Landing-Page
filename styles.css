@@ -1,0 +1,43 @@
+* {
+	font-style: roboto;
+}
+
+/*Header*/
+header {
+	background-color: #1f2937;
+}
+.Hero {
+	color: yellow;
+	display: flex;
+}
+.Hero.Main {
+	gap: 50rem;
+}
+
+span a,
+span {
+	text-decoration: none;
+	color: white;
+}
+span {
+	color: aqua;
+}
+span a {
+	gap: 5rem;
+}
+
+/*Main*/
+div {
+	margin: 65px;
+	border: 10px solid yellow;
+}
+
+/*Footer*/
+footer {
+	margin: 25px;
+	color: red;
+	background-color: #1f2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
