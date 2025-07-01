@@ -27,6 +27,9 @@ span a {
 }
 
 /*Main*/
+.new{
+	display: flex;
+}
 div {
 	margin: 65px;
 	border: 10px solid yellow;
