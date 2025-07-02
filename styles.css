@@ -1,9 +1,12 @@
+* {
+	font-family: "roboto";
+}
 /*Header*/
-header {
+.header {
+	margin-top: 1rem;
 	background-color: #1f2937;
 }
 .Hero {
-	color: yellow;
 	display: flex;
 }
 .Hero.Main {
@@ -20,13 +23,27 @@ header {
 span a,
 span {
 	text-decoration: none;
-	color: white;
 }
 span {
-	color: aqua;
+	font-size: 24px;
+	color: #f9faf8;
 }
 span a {
-	gap: 5rem;
+	font-size: 18px;
+	color: #e5e7eb;
+	display: flexbox;
+	justify-content: space-around;
+	gap: 8rem;
+}
+
+.Main-text {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+}
+.small-text {
+	font-size: 18px;
+	color: #e5e7eb;
 }
 
 /*Main*/
@@ -51,6 +68,7 @@ div {
 }
 /*Qoute statement*/
 .QT {
+	margin: 90px;
 	text-align: center;
 	text-wrap: wrap;
 	font-style: italic;
@@ -69,17 +87,21 @@ div {
 	margin: 150px;
 	border-radius: 15px;
 	border: 25pc;
-	background-color: lightskyblue;
+	background-color: #3882f6;
 	display: flex;
 	align-items: center;
 	flex-direction: column;
 }
-.newApply {
-	align-items: center;
+.Apply > p {
+	gap: 2rem;
+}
+h2 {
+	font-size: 20px;
+	color: #fff;
 }
 /*Footer*/
 footer {
-	margin: 30px;
+	margin-bottom: 1rem;
 	color: white;
 	background-color: #1f2937;
 	display: flex;
@@ -90,7 +112,11 @@ footer {
 }
 
 /*Buttons*/
-button {
+.btn {
+	color: white;
 	background-color: #3882f6;
-	border: 25px;
+	border: 35px;
+}
+#callbtn {
+	border: 2px solid white;
 }
