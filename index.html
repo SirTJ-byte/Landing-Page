@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<header>
+		<header class="header">
 			<div class="Hero Main">
 				<span>Logo</span>
 				<span>
@@ -20,14 +20,14 @@
 			<div class="Hero Second">
 				<div class="one">
 					<h1 id="Main-Text">Art is a reflection of true love</h1>
-					<p>
+					<p id="small-text">
 						"The advice I like to give young artists, or really anybody who'll
 						listen to me, is not to wait around for inspiration... If you wait
 						around for the clouds to part and a bolt of lightning to strike you
 						in the brain, you are not going to make an awful lot of work."-
 						Chuck Close
 					</p>
-					<button type="submit">Sign up</button>
+					<button class="btn" type="submit">Sign up</button>
 				</div>
 
 				<div class="two">
@@ -75,9 +75,15 @@
 			</div>
 
 			<div class="Apply">
-				<div class="newApply"><h2>Call to action! It's time!</h2></div>
-				<p>Sign up to our product by clicking that button right over there!</p>
-				<button type="submit">Sign up</button>
+				<h2>Call to action! It's time!</h2>
+				<p>
+					Sign up to our product by clicking that button right over there!
+					<span
+						><button id="callbtn" class="btn" type="submit">
+							Sign up
+						</button></span
+					>
+				</p>
 			</div>
 		</main>
 
